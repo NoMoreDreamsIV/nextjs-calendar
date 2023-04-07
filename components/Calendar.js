@@ -1,6 +1,5 @@
 import { useState } from "react";
 import CalendarDays from "../components/CalendarDays";
-import Modal from "../components/Modal";
 
 export default function Calendar() {
     const [currentDay, changeCurrentDay] = useState(new Date());
